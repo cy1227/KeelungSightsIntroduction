@@ -23,7 +23,7 @@ $(document).ready(function() {
 });
 function loadSights(zone){
     $.ajax({
-        url :'http://localhost:8081/SightAPI?zone='+zone,
+        url :'../SightAPI?zone='+zone,
         type:'GET',
         datatype:'json',
         success:function(sights){
